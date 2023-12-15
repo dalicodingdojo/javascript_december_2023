@@ -1,1 +1,1 @@
-# javascript_december_2023
+# JAVASCRIPT - DECEMBER - 2023
