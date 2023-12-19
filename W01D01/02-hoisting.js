@@ -9,6 +9,7 @@ let dog = "Max"
 
 // console.log(dog);
 // console.log(2 == "2")
+
 // * How The interpreter Works
 // 1 - Create namespaces = organize files 
 //  2 - Hoisting :  var and function 

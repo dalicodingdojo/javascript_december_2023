@@ -5,9 +5,9 @@ a.push(2000)
 b.push(9000)
 a.push(-200)
 c.push(9999)
-console.log("a == ",a); //? 10,20,3,2000
-console.log("b == ", b); //? 10,20,3,9000
-console.log("c == ", c); //? 10,20,3,9000
+console.log("a == ",a); //? 10,20,3,2000  --> 10,20,3,2000,9000, -200
+console.log("b == ", b); //? 10,20,3,9000   --> 10,20,3,2000,9000, -200
+console.log("c == ", c); //? 10,20,3,9000   --> 10,20,3,9999
 const person = {
     firstName: 'Bob',
     lastName: 'Marley',

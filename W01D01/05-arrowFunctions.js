@@ -16,21 +16,22 @@ const newFunction = function power(e) {
 }
 
 // console.log(newFunction(3));
-// const newAnonymousFunction = function (e) {
-//     console.log(this)
-//     return e**3
-// }
-// console.log(newAnonymousFunction(3));
-
-const newAnonymousArrowFunction =  (e) => {
+const newAnonymousFunction = function (e) {
+    console.log("Function", this, "***************************************")
     return e**3
 }
-// console.log(newAnonymousArrowFunction(3));
+console.log(newAnonymousFunction(3));
 
-const newAnonymousArrowOneLineFunction =  (e) =>  e**3 
-console.log(newAnonymousArrowOneLineFunction(3));
-
-function getValueFromId(id){
-    return document.getElementById(id).value;
+const newAnonymousArrowFunction =  (e) => {
+    console.log(this);
+    return e**3
 }
-const getValue = (id) => document.getElementById(id).value
+console.log(newAnonymousArrowFunction(3));
+
+// const newAnonymousArrowOneLineFunction =  (e) =>  e**3 
+// console.log(newAnonymousArrowOneLineFunction(3));
+
+// function getValueFromId(id){
+//     return document.getElementById(id).value;
+// }
+// const getValue = (id) => document.getElementById(id).value
