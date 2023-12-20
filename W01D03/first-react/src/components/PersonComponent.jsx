@@ -1,6 +1,7 @@
 import React from 'react'
 
 const PersonComponent = (props) => {
+  // Destructuring
     const {person} = props
   return (
     <fieldset>

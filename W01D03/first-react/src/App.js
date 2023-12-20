@@ -33,6 +33,7 @@ function App() {
       <h4 >Number  : {number}</h4>
       <h4 >Is Admin  : {isAdmin? "Yes He is":"No he is not"}</h4>
       {/*animals.map((animal, index)=><h6 key={index}> {animal}</h6>)*/}
+      {/* <h6>User : {user}</h6> */}
       <h6>User : {JSON.stringify(user)}</h6>
       <h5>
         Username : {user.username} <br />
