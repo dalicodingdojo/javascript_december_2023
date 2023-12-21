@@ -1,7 +1,7 @@
 import React from "react";
 //rafce
 const FirstComponent = (props) => {
-    /* props = {animals: ['leopard 🐆', 'giraffe 🦒 ', 'zebra 🦓', 'elephant 🐘', 'monkey 🐵', 'lion 🦁']} */
+    /* props = {animals: ['leopard 🐆', 'giraffe 🦒 ', 'zebra 🦓', 'elephant 🐘', 'monkey 🐵', 'lion 🦁'], number:3} */
     console.log("Props from App.js To First Components",props)
     return (
         <fieldset>

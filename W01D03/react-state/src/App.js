@@ -9,8 +9,8 @@ function App() {
   /*
   useState is a function that takes the default value of the state variable
   and return an array of 2 elements : 
-         1 - stateVariable => getter 
-         2 - setter for the state variable (function) = > setter
+         1 - stateVariable => getter 👁️
+         2 - setter for the state variable (function) = > setter 
   */
   const [numberStateVariable, setNumberStateVariable] = useState(23)
   const user = {username:"John", age:41, favFood:"🍣", hobbies:{name:"football", icon:"⚽"}}
@@ -37,6 +37,7 @@ function App() {
       </h3>
       <hr />
       <PeopleComponent people = {people}/>
+      {people.map((person, idx)=><PersonComponent key={idx} person={person}/>)}
       {people.map((person, idx)=><PersonComponent key={idx} person={person}/>)}
       {/* {people.map((person, idx)=><PersonComponent key={idx} person={person}/>)}
       {people.map((person, idx)=><PersonComponent key={idx} person={person}/>)} */}

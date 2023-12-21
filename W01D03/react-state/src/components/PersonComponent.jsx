@@ -11,7 +11,9 @@ const PersonComponent = ({person}) => {
         <h4>Username : {person.username}</h4>
         <h4>Age : {age}</h4>
         <h4>Favorite Food : {person.favFood}</h4>
+        {/* !⛔🚫<button onClick={increaseAge()}>HappyBirthday</button> */}
         <button onClick={()=> increaseAge()}>HappyBirthday</button>
+        <button onClick={increaseAge}>HappyBirthday</button>
     </fieldset>
   )
 }
