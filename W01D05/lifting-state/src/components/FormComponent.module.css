@@ -1,0 +1,14 @@
+.input {
+    height: 30px;
+    width: 100px;
+    border: 3px solid salmon;
+}
+
+.button {
+    padding: 5px 10px;
+    height: 30px;
+    width: 100px;
+    /* color: antiquewhite; */
+    border-radius: 20%;
+    background: linear-gradient(30deg, crimson, coral);
+}
