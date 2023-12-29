@@ -1,0 +1,9 @@
+.home {
+    min-height: 100vh;
+}
+.movie-card {
+    width: 22rem;
+}
+.movie-img {
+    height: 400px;
+}
